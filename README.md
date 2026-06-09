@@ -2,6 +2,8 @@
 
 Торговый клиент для биржи [INDX.MONEY](https://indx.money/) с графическим интерфейсом на CustomTkinter.
 
+<img width="1246" height="859" alt="screen1" src="https://github.com/user-attachments/assets/0a4122d5-0651-45d7-8063-61e4112024f5" />
+
 ## Возможности
 
 - Просмотр баланса и портфеля
@@ -12,10 +14,14 @@
 - Просмотр заявок по инструментам
 - Статистика сделок (Tick)
 
+<img width="1231" height="857" alt="screen2" src="https://github.com/user-attachments/assets/e9d13595-be03-4ccf-97a9-7a48e8443c03" />
+
 ## Требования
 
 - Python 3.8+
 - Зависимости из `requirements.txt`
+
+<img width="1226" height="857" alt="screen3" src="https://github.com/user-attachments/assets/b7430d62-468e-4244-9780-dd8603a2c34c" />
 
 ## Установка
 
@@ -37,11 +43,15 @@ pip install -r requirements.txt
     "culture": "ru-RU"
 }
 ```
+
+<img width="1224" height="849" alt="screen4" src="https://github.com/user-attachments/assets/e84d164d-d87a-455a-8abd-4c195057ec80" />
+
 ## Запуск GUI
 
 ```bash
 python3 main.py
 ```
+<img width="1232" height="853" alt="screen5" src="https://github.com/user-attachments/assets/5d22fee2-ac35-41dd-877a-ec9279d06e56" />
 
 ## Использование API клиента (без GUI)
 
@@ -69,6 +79,8 @@ response = api.offer_add(
 )
 print(response)
 ```
+<img width="1231" height="852" alt="screen6" src="https://github.com/user-attachments/assets/2d3c1b6e-0e64-46da-a6e4-ff08770fbce2" />
+
 ### Коды ошибок API
 
 - 0	    Запрос выполнен успешно
@@ -82,3 +94,5 @@ print(response)
 - -36	Неверное значение поля reqn
 - -37	Не выполнено условие увеличения reqn
 - -42	Превышено максимальное количество заявок
+
+<img width="1234" height="852" alt="screen7" src="https://github.com/user-attachments/assets/142762c2-9729-4594-9559-052cfa942ad4" />
